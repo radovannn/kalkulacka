@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Jednoduchá kalkulačka</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Simple <strong>Calculator</strong></h2>
+    <div class="kalkulacka">
+            <p>1 Value</p>
+            <input type="number"class="tlacidlo" id="hodnota1">
+
+            <p>2 Value</p>
+            <input type="number" class="tlacidlo" id="hodnota2">
+
+            <p>
+                <button onclick="scitanie()"class="calculate">+</button>
+                <button onclick="odcitanie()"class="calculate">-</button>
+                <button onclick="nasobenie()"class="calculate">x</button>
+                <button onclick="delenie()"class="calculate">/</button>
+            </p>
+
+            <a>Výsledok: <span id="vysledok" ></span></a>
+  </div>
+</body>
+<script src="javascript.js"></script>
+</html>

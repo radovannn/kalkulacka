@@ -1,0 +1,63 @@
+html, body {
+  height: 100%; /* make body full height */
+  margin: 0;    /* remove default margin */
+    font-family: -apple-system, "SF Pro Text", "SF Pro Display", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  flex-direction: column;
+}
+
+h2{
+    font-size: 250%;
+    
+}
+.kalkulacka{
+    font-weight: 600;
+}
+.kalkulacka p{
+    display: flex;
+    justify-content: center;
+}
+.tlacidlo {
+    width: 100%;
+    height: 20%;
+    background-color: #007aff;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10%;
+    border: none;
+    outline: none;
+    opacity: 80%;
+}
+.calculate{
+    width: 50%;
+    height: 20%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10%;
+    border: none;
+    outline: none;
+    margin-top: 8%;
+}
+.kalkulacka a{
+    font-size: 150%;
+}
+#vysledok{
+    color: #007aff;
+    width: 100%;
+    font-size: 150%;
+}
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff") format("woff");
+}
+strong{
+    font-weight: 600;
+    color: #007aff;
+}
