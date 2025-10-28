@@ -63,7 +63,7 @@ strong{
 }
 @media (max-width: 1000px) {
   h2 {
-    font-size: 650%;
+    font-size: 500%;
     text-align: center;
   }
 
@@ -76,10 +76,11 @@ strong{
   }
 
   .kalkulacka p {
-    font-size: 450%;
+    font-size: 400%;
   }
   .tlacidlo {
     height: 8vh;
+    width: 80%;
     background-color: #007aff;
     color: white;
     font-size: 500%;
@@ -90,19 +91,21 @@ strong{
     display: flex;
     justify-content: center;
     border-radius: 5%;
+    margin-left: 10%;
 }
 button{
   height: 100%;
 }
 .calculate{
-    width: 50%;
+    width: 8vh;
     height: 60%;
     font-size: 150%;
     font-weight: 600;
     border: black;
     outline: none;
     margin-top: 8%;
-
+  display: flex;
+  justify-content: center;
 }
 .kalkulacka a{
   font-size: 400%;
