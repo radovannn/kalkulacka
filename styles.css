@@ -61,3 +61,50 @@ strong{
     font-weight: 600;
     color: #007aff;
 }
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 650%;
+    text-align: center;
+  }
+
+  .kalkulacka {
+    width: 100%; /* full width on small screens */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .kalkulacka p {
+    font-size: 450%;
+  }
+  .tlacidlo {
+    height: 8vh;
+    background-color: #007aff;
+    color: white;
+    font-size: 500%;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+}
+button{
+  height: 100%;
+}
+.calculate{
+    width: 50%;
+    height: 60%;
+    font-size: 150%;
+    font-weight: 600;
+    border: black;
+    outline: none;
+    margin-top: 8%;
+
+}
+.kalkulacka a{
+  font-size: 400%;
+}
+}
