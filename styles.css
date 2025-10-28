@@ -79,7 +79,7 @@ strong{
   }
   .tlacidlo {
     height: 6vh;
-    width: 80%;
+    width: 100%;
     background-color: #007aff;
     color: white;
     font-size: 500%;
@@ -90,7 +90,6 @@ strong{
     display: flex;
     justify-content: center;
     border-radius: 5%;
-    margin-left: 10%;
   }
   button{
     height: 100%;
